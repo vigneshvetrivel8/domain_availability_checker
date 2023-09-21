@@ -3,6 +3,9 @@ With this script you can check the availability of a domain name with godaddy ap
 
 There are 3 versions v1.py, v2.py, v3.py.
 
+The above 3 python files use features such as multithreading, file i/0, retry mechanism, control flow, concurrency
+and other required features.
+
 # Files:
 Replace these lines in the beginning: api_key = "YOUR_API_KEY" and api_secret = "YOUR_API_SECRET", with
 your api key and secret key from godaddy in whichever python file you are looking to use.
@@ -21,10 +24,8 @@ run command: "python v2.py" or "python3 v2.py".
 In v3.py, we can include all the words we want to check in the 'words.txt' file(each word in seperate line).  
 we may include or remove TLD's according to the requirement in list named "last". The words can be any number 
 or any letter in capital or small.  
-run command: "python v3.py" or "python3 v3.py".
+run command: "python v3.py" or "python3 v3.py".  
 
-The above 3 python files use features such as multithreading, file i/0, retry mechanism, control flow, concurrency
-and other required features.
 
 # Other Info:
 The above files do not include available premium domain names in the results. If you wish to include available premium domain names 
